@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #0d47a1;
+    margin-top: 40px;
+    font-size: 2em;
+}
+h2{
+    text-align: center;
+    color: #0da150;
+    font-size: 2em;
+}
+
+fieldset {
+    background-color: #ffffff;
+    margin:auto;
+    width: 500px;
+    max-width: 500px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    border: 2px solid #34495e;
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3);
+}
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4130;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+input[type="number"]{
+    width: 80%;
+    max-width: 370px;
+    height: 45px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #b3d8f3;
+    color: rgb(166, 45, 45);
+    text-align: center;
+    margin-left: 1.5cm;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    transition: 0.3s ease;
+}
+.btnn{
+    background-color: #2196f3;
+    width: 12em;
+    height: 3em;
+    margin-top: 1em;
+    margin: 15px;
+    color: rgb(65, 25, 44);
+    font-size: 15px;
+    border-radius: 20px;
+    transition:0.3s ease ;
+}
+input[type="number"]:focus{
+    align-content: flex-start;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+div{
+    margin-left: 2em;
+}
+.btnn:hover{
+    background-color: darkcyan;
+    font-size: 18px;
+}
+input[type="text"]{
+    border: none;
+    border-radius: 8px;
+    background-color: #add0e9;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+.x{
+    width: 250px;
+    margin-left: 0px;
+    height: 40px;
+    color: #0c9746;
+}
+#f2{
+    width: 800px;
+}
+.y{
+    width: 200px;
+    margin-left: 20px;
+    height: 40px;
+}
