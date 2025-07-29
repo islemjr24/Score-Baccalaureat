@@ -17,15 +17,14 @@ h1 {
 
 fieldset {
     background-color: #ffffff;
-    margin:auto;
+    margin: auto;
     width: 500px;
-    max-width: 500px;
+    max-width: 90%; /* Make it fit mobile */
     padding: 30px 20px;
     border-radius: 20px;
     border: 2px solid #34495e;
     box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3);
 }
-
 
 legend {
     font-size: 24px;
@@ -34,7 +33,6 @@ legend {
     text-align: center;
     margin-bottom: 20px;
 }
-
 
 div {
     margin: 15px 0;
@@ -58,7 +56,7 @@ input[type="button"]:hover {
     background-color: #1976d2;
     transform: scale(1.03);
     color: rgb(43, 172, 43);
-    box-shadow: 2px 2x 2px firebrick;
+    box-shadow: 2px 2px 5px firebrick;
 }
 
 img {
@@ -101,3 +99,44 @@ footer .social-links a:hover img {
     transform: scale(1.2);
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+
+    fieldset {
+        padding: 20px 15px;
+    }
+
+    input[type="button"] {
+        width: 100%;
+        font-size: 14px;
+        height: 48px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    footer .social-links img {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    legend {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
