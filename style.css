@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #0d47a1;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+fieldset {
+    background-color: #ffffff;
+    margin: auto;
+    width: 90%;
+    max-width: 800px; 
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+    border: 2px solid #34495e;
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3);
+}
+
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a6186;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+div {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+input[type="button"] {
+    width: 100%;
+    max-width: 370px;
+    height: 3.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #6d87cc;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #1976d2;
+    transform: scale(1.03);
+    color: rgb(43, 172, 43);
+    box-shadow: 2px 2px 5px firebrick;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+footer {
+    margin-top: auto;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #0d47a1;
+    text-align: center;
+    background-color: #e3f2fd;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+footer .social-links {
+    margin-top: 0.5rem;
+}
+
+footer .social-links a {
+    margin: 0 0.8rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+footer .social-links img {
+    width: 40px;
+    height: 40px;
+    filter: grayscale(100%);
+    transition: filter 0.4s ease, transform 0.3s ease;
+}
+
+footer .social-links a:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    fieldset {
+        padding: 1.5rem;
+    }
+
+    input[type="button"] {
+        font-size: 0.9rem;
+        height: 2.8rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+
+    footer .social-links img {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    legend {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 40px;
+    }
+}

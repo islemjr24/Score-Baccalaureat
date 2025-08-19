@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styleIN.css">
+    <script src="calc.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Calculer Moyenne et Score Baccalaureat</h1>
+        <h2>section Lettres</h2>
+    </header>
+    <section>
+        <form>
+            <fieldset>
+                <legend>Votres Notes :</legend>
+                <input type="number" min="0" max="20" step="0.01" required name="" id="" placeholder="Pensée Islamique"><br><br>
+                <input type="number" min="0" max="20" step="0.01" required name="" id="" placeholder="Arabe"><br><br>
+                <input type="number" min="0" max="20" step="0.01" required name="" id="" placeholder="Hist/geo"><br><br>
+                <input type="number" min="0" max="20" step="0.01" required name="" id="" placeholder="Anglais"><br><br>
+                <input type="number" min="0" max="20" step="0.01" required name="" id="" placeholder="Francais"><br><br>
+                <input type="number" min="0" max="20" step="0.01" required name="" id="" placeholder="philosophie"><br><br>
+                <input type="number" min="0" max="20" step="0.01" required name="" id="" placeholder="Informatique"><br><br>
+                <input type="number" min="0" max="20" step="0.01" required name="" id="" placeholder="Sport (Taper 0  'Dispenser')"><br><br>
+                <input type="number" min="0" max="20" step="0.01" required name="" id="" placeholder="Option"><br><br>
+                <div><input type="reset" value="éffacer" class="btnn"> <input type="button" value="Calculer" class="btnn" onclick="dem('let')"></div>
+            </fieldset>
+        </form>
+    </section>
+    <section>
+        <form  id="f2" hidden action="">
+            <fieldset id="f2">
+                <legend>Tes Resultats :</legend>
+                <input type="text" class="x" value="Moyenne" readonly><input type="text" readonly id="moyenne" class="y" ><br><br>
+                <input type="text" class="x" value="Etat" readonly><input type="text"readonly  id="etat" class="y" ><br><br>
+                <input type="text" class="x" value="Mention" readonly><input type="text" readonly id="mention" class="y" ><br><br>
+                <input type="text" class="x" value="Score" readonly><input type="text" readonly id="score" class="y" ><br><br>
+                <input type="text" class="x" value="Score (avec 7%)"readonly><input type="text" readonly id="s7"  class="y" ><br><br>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
